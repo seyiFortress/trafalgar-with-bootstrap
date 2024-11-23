@@ -3,6 +3,12 @@ html{
     font-optical-sizing: auto !important;
     font-style: normal !important;
 }
+nav a span{
+    height: 41px;
+    width: 41px;
+    font-size: 26px;
+    font-weight: 700;
+}
 header span{
     height: 41px;
     width: 41px;
@@ -56,6 +62,9 @@ footer{
 }
 
 @media (max-width:992px) {
+    header{
+        max-width: 100%;
+    }
     main .wrap-1 #body-1{
         max-width: 100%;
     }
